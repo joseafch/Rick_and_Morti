@@ -1,0 +1,106 @@
+body{
+
+    margin: 0px;
+    pad: 0px;
+    background-color: black;
+}
+.caracter-card{
+    margin: auto;
+    /* background-color:white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 150px;
+    background-image: url(https://static.videezy.com/system/resources/thumbnails/000/043/897/original/200206_01_Particle-star-fall-seamless-loop.jpg);
+    background-color: black;
+ color: white;
+ /* border: 2px solid greenyellow; */
+  /* background: #00b09b; 
+ background: -webkit-linear-gradient(to right, #00b09b, #96c93d); 
+ background: linear-gradient(to right,#00b03e, #96c93d); */
+ background-image: url(https://i.pinimg.com/originals/64/5c/8d/645c8d877f6e2aad7fa6545140c72a52.gif);
+ /* background-color: black; */
+background-size: 780px;
+background-repeat: no-repeat;
+background-position: center;
+padding: 20px;
+box-shadow: 0px 0px 40px 12px greenyellow;
+
+}
+.img{
+    /* padding: 15px; */
+    border-radius: 150px;  
+    width: 250px;
+ box-shadow: 0px 0px 40px 12px greenyellow;
+ background-image: url(https://i.pinimg.com/originals/98/29/21/9829215db6f9210c0ae4e318e854cb1f.png);
+ 
+
+
+}
+.conteiner{
+    display: flex;
+    /* margin:40px; */
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.img-tittle{
+    width: 100%;
+}
+.div-tittle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background: none;
+}
+.div-padre{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.pagination-div{
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.pagination-bton{
+padding: 15px;
+color:greenyellow;
+background-color: black;
+border-color: white;
+box-shadow: 0px 0px 20px 5px green;
+
+}
+.div_input-search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.search_input{
+    padding: 10px;
+    width: 80%;
+    border:solid 2px whitesmoke;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+box-shadow: 0px 0px 10px 5px green;
+
+}
+.div-tittle_logo{
+    width: 50%;
+}
+.div-conten_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
